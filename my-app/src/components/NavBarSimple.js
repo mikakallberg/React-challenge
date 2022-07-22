@@ -29,7 +29,7 @@ class NavBarSimple extends React.Component{
 
     render() {
         return (
-            <div className={ NavBarSimple }>
+            <div className={ css.NavBarSimple }>
                 <h1>My Gallery </h1>
                 <span>
                 <button onClick={() => this.handleClick()}>{this.state.buttonText}</button>
